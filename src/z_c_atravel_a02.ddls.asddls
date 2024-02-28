@@ -25,6 +25,7 @@ define root view entity Z_C_ATRAVEL_A02
    last_changed_at as LastChangedAt,
    /* Associations */
    _Booking : redirected to composition child Z_C_ABOOKING_A02,
+   _Agency,
    _Customer
     
 }

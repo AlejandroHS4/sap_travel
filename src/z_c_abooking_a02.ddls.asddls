@@ -20,7 +20,7 @@ define view entity Z_C_ABOOKING_A02
      booking_status as BookingStatus,
      last_change_at as LastChangedAt,
      /* Associations */
-     _Travel :redirected to parent Z_C_ATRAVEL_A02,
+     _Travel : redirected to parent Z_C_ATRAVEL_A02,
      _Customer,
      _Carrier
     

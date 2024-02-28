@@ -29,7 +29,7 @@ annotate view Z_C_TRAVEL_A02
        position: 10,
        importance: #HIGH}],
       
-   identification: [{ position: 10, label: 'Label ID [1,...,99999999]' }]}
+   identification: [{ position: 10, label: 'Travel ID [1,...,99999999]' }]}
    @Search.defaultSearchElement: true
    TravelID;
    @UI: {

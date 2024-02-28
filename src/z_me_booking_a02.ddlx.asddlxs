@@ -21,7 +21,7 @@ annotate view Z_C_BOOKING_A02 with
       { id: 'BookingSupplement',
         purpose: #STANDARD,
         type: #LINEITEM_REFERENCE,
-        label: 'BookingSupplement',
+        label: 'Booking Supplement',
         position: 20,
         targetElement: '_BookingSupplement'} ]
  @Search.defaultSearchElement: true

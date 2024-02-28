@@ -6,7 +6,6 @@
    typeNamePlural: 'Bookings',
    title: {
        type: #STANDARD,
-       label: 'Booking',
        value: 'BookingID'
    }
 }
