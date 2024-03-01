@@ -19,7 +19,7 @@ CLASS zcl_insert_data_a02 IMPLEMENTATION.
 
   DATA: lt_travel TYPE TABLE OF ztravel_a02,
         lt_booking TYPE TABLE OF zbooking_a02,
-        lt_book_sup TYPE TABLE OF zbooksuppl_a02.
+        lt_book_sup TYPE TABLE OF zbooksuppl_a2.
 
   SELECT travel_id,
          agency_id,
@@ -52,11 +52,11 @@ CLASS zcl_insert_data_a02 IMPLEMENTATION.
 
   DELETE FROM: ztravel_a02,
                zbooking_A02,
-               zbooksuppl_A02.
+               zbooksuppl_a2.
 
   INSERT: ztravel_a02 FROM TABLE @lt_travel,
           zbooking_a02 FROM TABLE @lt_booking,
-          zbooksuppl_a02 FROM TABLE @lt_book_sup.
+          zbooksuppl_a2 FROM TABLE @lt_book_sup.
 
   out->write( 'DONE!' ).
 

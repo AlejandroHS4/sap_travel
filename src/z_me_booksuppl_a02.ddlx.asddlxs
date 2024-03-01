@@ -11,7 +11,7 @@
    }
 }
 }
-annotate view Z_C_BOOKSUPPL_A02 with
+annotate view Z_C_BOOKSUPPL_A2 with
 {
  @UI.facet: [ { id: 'BookingSupplement',
         purpose: #STANDARD,

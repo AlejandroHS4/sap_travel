@@ -4,7 +4,7 @@
 @EndUserText.label: 'Interface - Booking'
 define view Z_I_BOOKING_A02 
     as select from zbooking_a02 as Booking
-    composition [0..*] of Z_I_BOOKSUPPL_A02 as _BookingSupplement
+    composition [0..*] of Z_I_BOOKSUPPL_A2 as _BookingSupplement
     association to parent Z_I_TRAVEL_A02 as _Travel on $projection.travel_id = _Travel.travel_id
     association [1..1] to /DMO/I_Customer as _Customer on $projection.customer_id = _Customer.CustomerID
     association [1..1] to /DMO/I_Carrier as _Carrier on $projection.carrier_id = _Carrier.AirlineID
