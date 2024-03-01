@@ -72,4 +72,8 @@ annotate view Z_C_TRAVEL_A02
    TravelStatus;
    @UI.hidden: true
    LastChangedAt;
+   @UI: {
+   lineItem: [{ position: 60, importance: #HIGH }]}
+   @EndUserText.label: 'Discount 10%'
+   DiscountPrice;
 }
