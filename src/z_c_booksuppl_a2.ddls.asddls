@@ -18,7 +18,6 @@ define view entity Z_C_BOOKSUPPL_A2
    /* Associations */
    _Travel : redirected to Z_C_TRAVEL_A02,
    _Booking: redirected to parent Z_C_BOOKING_A02,
-   _Product,
    _SupplementText
     
 }

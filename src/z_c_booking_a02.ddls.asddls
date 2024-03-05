@@ -23,7 +23,6 @@ define view entity Z_C_BOOKING_A02
      _Travel : redirected to parent Z_C_TRAVEL_A02,
      _BookingSupplement : redirected to composition child Z_C_BOOKSUPPL_A2,
      _Carrier,
-     _Connection,
      _Customer
     
 }

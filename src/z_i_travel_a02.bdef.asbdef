@@ -70,7 +70,7 @@ authorization dependent by _Travel
 etag master last_changed_at
 {
 
-  field ( readonly ) travel_id, booking_id;
+  field ( readonly ) travel_id, booking_id,  booking_supplement_id;
   field ( mandatory : create ) supplement_id, price;
 
   update;
