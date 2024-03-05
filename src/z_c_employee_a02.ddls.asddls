@@ -1,7 +1,7 @@
-@EndUserText.label: 'HCM -Master'
+@EndUserText.label: 'EMPLOYEES'
 @Metadata.allowExtensions: true
-define root view entity Z_C_HCM_MASTER_A02 
-    as projection on Z_I_HCM_MASTER_A02
+define root view entity Z_C_EMPLOYEE_A02 
+    as projection on Z_I_EMPLOYEE_A02
 {
 //    @ObjectModel.text.element: [ 'EmployeeName' ]
     key e_number as EmployeeNumber,
